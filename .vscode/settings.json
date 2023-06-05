@@ -1,0 +1,24 @@
+{
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": false,
+  "eslint.format.enable": true,
+  "eslint.rules.customizations": [
+    {
+      "rule": "prettier/prettier",
+      "severity": "off"
+    }
+  ],
+  "eslint.validate": ["json"],
+  "files.eol": "\n",
+  "i18n-ally.localesPaths": [
+    "src/shared/translations"
+  ],
+  "npm.packageManager": "npm",
+  "prettier.useTabs": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vue.complete.casing.props": "camel",
+  "vue.complete.casing.tags": "pascal"
+}
