@@ -3,8 +3,6 @@
 		"baseUrl": "./",
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,
-		"jsx": "preserve",
-		"jsxImportSource": "vue",
 		"lib": ["esnext", "dom"],
 		"module": "esnext",
 		"moduleResolution": "node",
@@ -19,5 +17,5 @@
 		"target": "esnext",
 		"useDefineForClassFields": true
 	},
-	"include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
+	"include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.vue"]
 }

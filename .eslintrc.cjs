@@ -108,7 +108,7 @@ module.exports = {
 			},
 		],
 		"vue/attributes-order": ["warn", { alphabetical: true }],
-		"vue/component-name-in-template-casing": ["warn", "kebab-case"],
+		"vue/component-name-in-template-casing": ["warn", "PascalCase"],
 	},
 	settings: {
 		"json/sort-package-json": "pro",

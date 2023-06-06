@@ -1,5 +1,4 @@
 import vue from "@vitejs/plugin-vue";
-import vueJsx from "@vitejs/plugin-vue-jsx";
 import { resolve as resolvePath } from "path";
 import { defineConfig } from "vite";
 
@@ -14,16 +13,13 @@ export default defineConfig(({ command }) => ({
 		sourcemap: true,
 	},
 	envDir: resolvePath(__dirname),
-	plugins: [vue(), vueJsx()],
+	plugins: [vue()],
 	resolve: {
 		alias: {
 			"@": resolvePath(__dirname, "src"),
 		},
 	},
 	root: resolvePath(__dirname, command === "build" ? "." : "src"), // So addresses don't start with /src when testing
-	server: {
-		port: 3003,
-	},
 	test: {
 		cache: {
 			// Without the dir setting, Vitest writes to the src folder

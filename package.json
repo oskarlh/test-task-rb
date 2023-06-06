@@ -1,5 +1,5 @@
 {
-  "name": "<app name here>",
+  "name": "next-race",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
     "test": "vitest"
   },
   "dependencies": {
+    "@vueuse/core": "^10.1.2",
     "vue": "^3"
   },
   "devDependencies": {
@@ -16,7 +17,6 @@
     "@typescript-eslint/eslint-plugin": "^5",
     "@typescript-eslint/parser": "^5",
     "@vitejs/plugin-vue": "^4",
-    "@vitejs/plugin-vue-jsx": "^3",
     "@vue/eslint-config-prettier": "^7",
     "@vue/eslint-config-typescript": "^11",
     "@vue/test-utils": "^2.3.2",
