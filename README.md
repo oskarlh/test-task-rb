@@ -1,6 +1,12 @@
 # Next Race
-Run it with `npm run dev`.
-Build it with `npm run build`.
+Try it out [here](https://oskar.pm/test-task-rb/).
+
+Run it: `npm run dev`
+
+Build it: `npm run build`
+
+Run the unit tests: `npm run test`
+
 Thank you! - Oskar
 
 
